@@ -1,0 +1,512 @@
+/* *{
+  margin:0;
+  padding:0;
+} */
+
+#bookmark{
+color: black;
+  
+   text-decoration: none;
+z-index: 10;
+  position:fixed;
+  top:3px;
+  right:0;
+  background-color: transparent;
+  
+}
+
+
+body{
+  
+  position:relative;
+  background-image: url("back1\ .jpg");
+  background-attachment: fixed;
+ top: 21px; 
+  width:600px;
+  border:1px transparent solid;
+  overflow-x: hidden;
+  
+ }
+body::-webkit-scrollbar { 
+  width: 5px; 
+  background-color: transparent;
+  z-index: 11;
+  
+} 
+body::-webkit-scrollbar-thumb {
+  background-color: grey; 
+  border-radius: 10%;
+ 
+}
+
+#pfp{
+  height: 400px;
+  width: 300px;
+  filter: drop-shadow(10px 5px 4px #3d3d3d);
+  transition: all 2s ease-in-out ;
+}
+
+
+#Skills{
+  
+  color: white;
+  text-decoration: double underline;
+  font-weight: lighter;
+  text-size-adjust: 50px;
+  font-size: 15px;
+  width: 600px;
+background-size: contain;
+  border-radius: 5%;
+  position: relative;
+  }
+.skills{
+  color:black;
+font-weight: bold;
+  text-decoration-color: maroon;
+  text-decoration-thickness:5px;
+}
+
+#Feedback{
+  background-image: url(background\ .jpg);
+  font-weight: 800;
+  color: maroon;
+  text-decoration: double underline;
+  text-decoration-color: whitesmoke;
+  width:600px;
+  background-repeat:no-repeat;
+ }
+
+ a{
+  margin:7px;
+} 
+
+
+
+#feedback::placeholder {
+  color: white;
+  opacity: 100;  
+}
+#feedback:-ms-input-placeholder { 
+color: white;
+}
+#feedback{
+  background-image: url("background\ for\ intro\ \(4\).jpg");
+  font-weight: bold;
+}
+.skills{
+  text-decoration-thickness:3px;
+}
+
+
+#AboutMe{
+  text-align: center;
+  background-image: url("code\ back.jpg");
+  background-size:cover;
+   width: 600px;
+  font-weight: bold;
+}
+#Hobbies l, #Hobbies legend{
+
+  filter:brightness(200%);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+   background-color: rgba(0,0,0, 0.4);  
+font-size: 20px;
+  border-radius: 8px;
+  padding:2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index:10;
+}
+
+.web{
+  color: chocolate;
+  text-decoration: dotted underline;
+  text-decoration-color: #15153c;
+}
+
+
+.bookmark{
+  color: #016e6e;
+  font-weight: bold;
+  text-decoration: dotted underline;
+  text-decoration-color: #0b0b51;
+} 
+
+
+.bookmark:hover{
+  color: #004242;
+  text-decoration: double underline;
+  text-decoration-color: maroon;
+  font-size: 18px;
+  
+   transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+  /* transition: all 1s ease-out; */
+  
+}
+#bookmark :active{
+  color: darkblue;
+  text-decoration-color: red;
+}
+#search_nav{
+  cursor:pointer;
+}
+
+#contactdetails a:hover{
+  color: #8e5d01;
+  text-decoration: double underline;
+  text-decoration-color: maroon;
+  transition-property: all;
+  transition-duration: 0.1s;
+  font-size: 18px;
+  transition-timing-function: ease-out;
+ 
+}
+#contactdetails a:active{
+  color: darkblue;
+  text-decoration-color: red;
+}
+
+
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+    border: 5px solid #87806d;
+    border-top: transparent;
+    border-bottom: transparent;
+  }
+  50%{
+    transform: rotate(180deg);
+
+    border: 5px solid #788572;
+    border-top: transparent;
+    border-bottom: transparent;
+  }  
+  100%{
+    transform: rotate(360deg);
+    border: 5px solid #85727c;
+    border-top: transparent;
+    border-bottom: transparent;
+  }}
+
+.load{
+  display: inline-block;
+  height:25px;
+  width:25px;
+  border: 5px solid #fbedda;
+  border-top: transparent;
+  border-bottom: transparent ;
+  border-radius: 50%;
+   animation:spin 2s ease-in-out infinite;
+}
+
+
+textarea{
+  color: white;
+}
+input{
+  color:#454545;
+}
+
+input:focus {
+  color: white;
+  background-color: gray; 
+}
+input:focus::placeholder {
+  color: white;
+  opacity: 100;  
+}
+
+input:focus:-ms-input-placeholder { 
+color: white;
+}
+
+
+textarea:focus {
+  background-color: lightgray; 
+}
+
+  
+button:hover{
+  background-color: gray; 
+  color:whitesmoke;
+  transform: scale(1.08);
+  cursor:pointer;
+}
+button:focus {
+  background-color: #969695; 
+  color:whitesmoke;
+ transform: scale(1.04);
+}
+button:active {
+  background-color: #5c5c5b; 
+  color: white;
+  transform:scale(0.9);
+}
+.swingButton{
+   padding:5px;
+  border-radius: 10px;
+  font-weight: 550;
+  border-width: 2px;
+}  
+
+  .swingButton:hover{
+    transform:translate(400px, 0) rotate(720deg);
+    transition:all 1s ease-in;
+}  
+#vivek{
+  font-weight: bold;
+  font-size:23px;
+position: relative;
+  cursor: pointer;
+  background-image: url("tClip3.webp"); 
+  /* tClip.webp */ /* tClip2.webp */
+  background-size: contain;
+  background-clip:text;
+  
+  color:transparent;
+  opacity:0.9;
+  -webkit-text-stroke: .5px black;
+}
+
+#vivek h1::after{
+    content: "";
+    position: absolute;
+  bottom:-5px;
+  left: calc(50% - 140px);
+  text-align: center;
+  background: radial-gradient( #474747,transparent, black); 
+  width:280px;
+  height:4px;
+  transform: scale(0);
+  border: 1px sloid black;;
+  border-radius: 50%;
+  transition: all .5s ease-in-out;
+  } 
+
+#vivek h1:hover::after{
+  transform: scale(1);
+  box-shadow: 0 0 10px 1px cyan;
+}
+
+
+
+
+details{
+margin:5px;
+}
+
+#Education{
+  /* background-image: url("background\ for\ intro\ \(2\).jpg"); */
+  background-image: url("edu.jpg");
+  font-weight: bold;
+  background-size: auto;
+  width: 600px;
+  background-attachment:fixed;
+}
+@media(max-width: 600px){
+  body{
+    top:34px;
+    width:629px;
+    margin-left: 1px;
+    margin-right: 1px;  
+  }
+   #AboutMe{
+      width:629px;
+   }
+  #search_nav{
+    position: relative;
+    top:3px;
+  }
+  #Feedback{
+    width:628px;
+  }
+#Education{
+  width:628px;
+}
+}
+@media(min-width: 600px){
+  #AboutMe{
+    font-weight: bold;
+    width:auto;
+  background-image: url("background\ for\ intro\ \(2\).jpg");
+  
+    background-repeat: no-repeat;
+  }
+body{
+  width:1407px;
+}
+  #para{
+display: inline-block;
+   width: 740px;
+  }
+  #Education{
+    background-image: url("edu.jpg");
+    font-weight: bold;
+    width: auto;
+    background-size: auto;
+  }
+  #Feedback{
+    background-image: url("enlarge_wolfy.jpg");
+    font-weight: bold;
+    width: auto;
+    background-size: cover;
+    background-repeat:initial;
+  }
+  #Hobbies{
+    color: #f0cc89;
+    font-weight: bold;
+    text-decoration:dotted underline;
+    text-decoration-color: #bdfff5;
+    text-decoration-thickness: 2px;
+  }
+  #Hobbies i {
+    color: white;
+  }
+  
+  #pfp{
+    height: 350px;
+    width:350px;
+    /* box-shadow: 20px 20px 20px grey;;
+    } */
+      filter: drop-shadow(10px 5px 2px #3d3d3d);
+  }
+  #FAQs{
+    background-size: cover;
+  }
+  
+}
+
+
+@media(min-width:1441px){
+  body{
+    width: 1700px;
+  } 
+  
+  /* #Hobbies{
+    color: black;
+    text-decoration: dotted-underline;
+    text-decoration-color: white;
+  } */
+    #para{
+  display: inline-block;
+     width: 800px;
+    }
+ #pfp{
+   
+    margin:55px;
+  }
+  #FAQs{
+    background-size: cover;
+  }
+} 
+
+
+#FAQs{
+  background-image: url("background\ for\ intro\ \(5\).jpg");
+  font-weight: 800;
+  color: #05537a;
+  summary{
+    color:#7a053a;
+  }
+}
+#Skills{
+  background-image: url("background\ for\ intro\ \(4\).jpg");
+  background-size: cover;
+}
+#Feedback i{
+  color: black;
+}
+
+@media(min-width:1710px){
+body{
+  width: 2560px;
+
+} 
+  #pfp{
+    margin:10px;
+    position: relative;
+      left:45px;
+  }
+  .load{
+
+    position: relative;
+    left:185px;
+    top:60px;
+  }
+  #para{
+    position: relative;
+    left:185px;
+    top:60px;
+    width:1440px;
+  }
+  #Hobbies{
+    color:black;
+    text-decoration: dotted-underline;
+    text-decoration-color: white;
+  }
+  #FAQs{
+    background-size: cover;
+  }
+}
+
+input[type="radio"] {
+  
+ appearance: none;
+  
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid black; 
+  background-color: #797979; 
+  outline: double;
+  cursor: pointer;
+  outline-color: wheat;
+}
+input[type="radio"]:hover {
+  scale:1.05;
+}
+input[type="radio"]:checked {
+  background-color: #454345 ; 
+  border-color: wheat; 
+  outline-color: black;
+}
+#mail::placeholder{
+  position:absolute;
+  right:5px;
+}
+
+#Experience,#otherProjects{
+  margin-top: 10px;
+}
+
+
+body ::selection{
+background-color: #ba7782;
+}
+/* body :not(a):not(button)::selection {
+  color: #002a52;
+} */
+body :not(a, button)::selection {
+  color: #002a52;
+}
+
+.skills::selection{
+  color:#002a52;
+}
+
+select{
+  background-color: grey;
+  color:white;
+  outline:none;
+}
+select:focus{
+  background-color: #5c5c5c;
+  color:white;
+}
+
+img::selection, iframe::selection, button::selection, a:not(.skills)::selection, br::selection, #bookmark::selection, #contactdetails ::selection, input::selection,select::selection,#feedback::selection {
+  background-color: transparent;
+}
