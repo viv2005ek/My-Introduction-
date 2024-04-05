@@ -7,15 +7,15 @@ This repository contains the code for a personal profile webpage created by Vive
 The purpose of this project is to provide an interactive platform for Vivek to present his profile in a visually appealing manner. The webpage allows visitors to navigate through different sections of the profile easily and provides information about Vivek's background, skills, education, and interests.
 
 <h3>Features</h3>
-Navigation: The webpage includes a navigation bar with bookmarks that allow users to jump to specific sections of the profile.
-About Me Section: Provides a brief introduction to Vivek, including contact details and a profile picture.
-Hobbies Section: Lists Vivek's hobbies, including reading books, listening to music, and playing mobile games.
-Education Section: Displays Vivek's educational background, including his current pursuit of a Bachelor of Technology degree in Computer Science and Engineering at Manipal University, Jaipur.
-Skills Section: Showcases Vivek's proficiency in programming languages such as Java, HTML, CSS, Python, and JavaScript.
-Grades Section: Presents Vivek's academic achievements, including his grades in 10th and 12th standard.
-FAQs Section: Addresses frequently asked questions about Vivek, including his age, hobbies, and favorite song.
-Feedback Section: Allows visitors to provide feedback about the webpage and share screenshots of any issues encountered.
-Responsive Design: The webpage is designed to adapt to different screen sizes, ensuring a consistent user experience across devices.
+ Navigation: The webpage includes a navigation bar with bookmarks that allow users to jump to specific sections of the profile. <br>
+About Me Section: Provides a brief introduction to Vivek, including contact details and a profile picture.<br>
+Hobbies Section: Lists Vivek's hobbies, including reading books, listening to music, and playing mobile games.<br>
+Education Section: Displays Vivek's educational background, including his current pursuit of a Bachelor of Technology degree in Computer Science and Engineering at Manipal University, Jaipur.<br>
+Skills Section: Showcases Vivek's proficiency in programming languages such as Java, HTML, CSS, Python, and JavaScript.<br>
+Grades Section: Presents Vivek's academic achievements, including his grades in 10th and 12th standard.<br>
+FAQs Section: Addresses frequently asked questions about Vivek, including his age, hobbies, and favorite song.<br>
+Feedback Section: Allows visitors to provide feedback about the webpage and share screenshots of any issues encountered.<br>
+Responsive Design: The webpage is designed to adapt to different screen sizes, ensuring a consistent user experience across devices.<br>
 
 
 <h3>Usage</h3>
