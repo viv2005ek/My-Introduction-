@@ -47,23 +47,39 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-#Skills{
-  
+#Skills {
   color: white;
   text-decoration: double underline;
   font-weight: lighter;
-  text-size-adjust: 50px;
   font-size: 15px;
-  width: 600px;
-background-size: contain;
   border-radius: 5%;
   position: relative;
-  }
-.skills{
-  color:black;
-font-weight: bold;
+  /* background-image: url("background for intro (4).jpg"); /* Corrected the background image URL 
+  background-size: cover; */
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+}
+
+.skills {
+  color: black;
+  font-weight: bold;
   text-decoration-color: maroon;
-  text-decoration-thickness:5px;
+  text-decoration-thickness: 5px;
+}
+
+#SkillsTable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px;
+  background-image:url("../My-Introduction-/backt.webp");
+
+}
+
+#SkillsTable .flex-item {
+  text-align: center;
+  margin: 10px;
 }
 
 #Feedback{
@@ -301,10 +317,18 @@ margin:5px;
 #Education{
   /* background-image: url("background\ for\ intro\ \(2\).jpg"); */
   background-image: url("edu.jpg");
-  font-weight: bold;
+   background-attachment:fixed;
   background-size: auto;
+  font-weight: bold;
+  
   width: 600px;
-  background-attachment:fixed;
+ 
+}
+#Grades, #Experience {
+  background-image: url("edu.jpg");
+   background-attachment:fixed;
+  background-size: auto;
+  /* margin: 10px; */
 }
 @media(max-width: 600px){
   body{
@@ -412,10 +436,7 @@ display: inline-block;
     color:#7a053a;
   }
 }
-#Skills{
-  background-image: url("background\ for\ intro\ \(4\).jpg");
-  background-size: cover;
-}
+
 #Feedback i{
   color: black;
 }
