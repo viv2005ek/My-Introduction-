@@ -73,7 +73,7 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 60px;
-  background-image:url("../My-Introduction-/backt.webp");
+  background-image:url("backt.webp");
 
 }
 
